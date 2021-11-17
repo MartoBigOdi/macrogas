@@ -188,7 +188,7 @@ main .sobre-nosotros{
     transform: scale(1);
 }
 
-/* Clients */
+/* Clientes */
 
 .cards{
     display: flex;
@@ -208,8 +208,8 @@ main .sobre-nosotros{
 }
 
 .cards .card img{
-    width: 75%px;
-    height: 150px;
+    width: 55%px;
+    height: 130px;
     object-fit: cover;
     border-radius: 4%;
     display: block;
@@ -217,7 +217,7 @@ main .sobre-nosotros{
 }
 
 .cards .card > .contenido-texto-card{
-    width: 60%;
+    width: 70%;
     color: #fff;
 }
 
