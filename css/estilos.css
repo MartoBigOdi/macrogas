@@ -593,3 +593,11 @@ footer{
     margin-top: 16px;
     margin: 10px;
 }
+
+
+iframe {
+    margin: 10px;
+    border: 1px solid black;
+    width: 100%;
+    align-items: center;
+}
