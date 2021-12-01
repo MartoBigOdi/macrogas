@@ -66,10 +66,13 @@ header .textos-header{
     justify-content: center;
     flex-direction: column;
     text-align: center;
+    padding-top: 170px;
    
 }
 
 .textos-header h1{
+    padding-left: 30px;
+    padding-right: 30px;
     font-size: 100px;
     color:#fff;
     border-radius: 15px;
@@ -317,7 +320,7 @@ footer{
 
     header{
         background-position: center;
-        background: linear-gradient(to right, hsla(0, 2%, 91%, 0.459), hsla(115, 82%, 35%, 0.664));
+        background: linear-gradient(to right, hsla(0, 2%, 91%, 0.459), hsla(115, 24%, 53%, 0.664));
         background-size: cover;
         background-attachment: fixed;
         position: relative;
@@ -325,9 +328,9 @@ footer{
         height: 700px;
         background: rgba(28, 133, 31, 0.7);
         /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, hsla(0, 2%, 91%, 0.459), hsla(115, 82%, 35%, 0.664)), url(../img/bajo\ chasis.JPG);
+        background: -webkit-linear-gradient(to right, hsla(0, 2%, 91%, 0.459), hsla(116, 24%, 55%, 0.664)), url(../img/bajo\ chasis.JPG);
         /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, hsla(0, 2%, 91%, 0.459), hsla(115, 82%, 35%, 0.664)), url(../img/bajo\ chasis.JPG);
+        background: linear-gradient(to right, hsla(0, 2%, 91%, 0.459), hsla(115, 25%, 53%, 0.664)), url(../img/bajo\ chasis.JPG);
         /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         background-size: cover;
         background-attachment: fixed;
@@ -341,6 +344,12 @@ footer{
         border-radius: 15px;
     }
     
+    header .textos-header{
+        padding-top: 170px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
 
     .contenedor-sobre-nosotros{
         flex-direction: column;
@@ -429,7 +438,7 @@ footer{
 
      header{
         background-position: center;
-        background: linear-gradient(to right, hsla(0, 2%, 91%, 0.459), hsla(115, 82%, 35%, 0.664));
+        background: linear-gradient(to right, hsla(0, 2%, 91%, 0.459), hsla(115, 27%, 55%, 0.664));
         background-size: cover;
         background-attachment: fixed;
         position: relative;
@@ -437,9 +446,9 @@ footer{
         height: 500px;
         background: rgba(28, 133, 31, 0.7);
         /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, hsla(0, 2%, 91%, 0.459), hsla(115, 82%, 35%, 0.664)), url(../img/bajo\ chasis.JPG);
+        background: -webkit-linear-gradient(to right, hsla(0, 2%, 91%, 0.459), hsla(115, 26%, 53%, 0.664)), url(../img/bajo\ chasis.JPG);
         /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, hsla(0, 2%, 91%, 0.459), hsla(115, 82%, 35%, 0.664)), url(../img/bajo\ chasis.JPG);
+        background: linear-gradient(to right, hsla(0, 2%, 91%, 0.459), hsla(115, 25%, 50%, 0.664)), url(../img/bajo\ chasis.JPG);
         /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         background-size: cover;
         background-attachment: fixed;
@@ -454,8 +463,17 @@ footer{
         border-radius: 15px;
     }
 
+header .textos-header{
+    padding-top: 40px;
+}
+
     .textos-header h1{
-        font-size: 35px;
+        color:#fff;
+        border-radius: 15px;
+        font-size: 45px;
+        padding-left: 10px;
+        padding-right: 10px;
+        
     }
 
     .textos-header h2{
