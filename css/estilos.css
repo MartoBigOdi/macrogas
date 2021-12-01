@@ -30,9 +30,9 @@ header {
     height: 750px;
     background: rgba(28, 133, 31, 0.7);
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, hsla(0, 2%, 91%, 0.459), hsla(115, 82%, 35%, 0.664)), url(../img/bajo\ chasis.JPG);
+    background: -webkit-linear-gradient(to right, hsla(0, 2%, 91%, 0.459), hsla(114, 21%, 61%, 0.664)), url(../img/bajo\ chasis.JPG);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, hsla(0, 2%, 91%, 0.459), hsla(115, 82%, 35%, 0.664)), url(../img/bajo\ chasis.JPG);
+    background: linear-gradient(to right, hsla(0, 2%, 91%, 0.459), hsla(115, 28%, 54%, 0.664)), url(../img/bajo\ chasis.JPG);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: cover;
     background-attachment: fixed;
@@ -44,6 +44,7 @@ nav{
     padding: 10px 30px 10px 30px;
     background-color: #0a0a0a;
     border-radius: 15px;
+    
 }
 
 nav > a{
@@ -65,11 +66,13 @@ header .textos-header{
     justify-content: center;
     flex-direction: column;
     text-align: center;
+   
 }
 
 .textos-header h1{
-    font-size: 50px;
+    font-size: 100px;
     color:#fff;
+    border-radius: 15px;
 }
 
 .textos-header h2{
@@ -102,6 +105,10 @@ main .sobre-nosotros{
     
 }
 
+.contenedor-sobre-nosotros img{
+    padding-right: 70px;
+}
+
 .imagen-about-us{
     width: 65%;
     height: 40%;
@@ -109,7 +116,7 @@ main .sobre-nosotros{
 }
 
 .sobre-nosotros .contenido-textos{
-    width: 48%;
+    width: 55%;
 }
 
 .contenido-textos h3{
