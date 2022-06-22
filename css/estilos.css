@@ -27,12 +27,12 @@ body {
 
 header {
     width: 100%;
-    height: 750px;
+    height: 800px;
     background: rgba(28, 133, 31, 0.7);
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, hsla(0, 2%, 91%, 0.459), hsla(114, 21%, 61%, 0.664)), url(../img/MacroGasFrente.PNG);
+    background: -webkit-linear-gradient(to right, hsla(0, 2%, 91%, 0.459), hsla(114, 21%, 61%, 0.664)), url(../img/Balbula\ externa.jfif);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, hsla(0, 2%, 91%, 0.459), hsla(115, 28%, 54%, 0.664)), url(../img/MacroGasFrente.PNG);
+    background: linear-gradient(to right, hsla(0, 2%, 91%, 0.459), hsla(115, 28%, 54%, 0.664)), url(../img/Balbula\ externa.jfif);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: cover;
     background-attachment: fixed;
@@ -109,13 +109,22 @@ main .sobre-nosotros{
 }
 
 .contenedor-sobre-nosotros img{
-    padding-right: 70px;
+    padding: 50px;
+}
+
+.imagen-about-us1{
+    width: 75%;
+    height: 40%;
+    padding-top: 10px;
+    padding-left: 200px;
+    opacity: 60%;
 }
 
 .imagen-about-us{
-    width: 65%;
+    width: 75%;
     height: 40%;
-    padding-top: 180px;
+    padding-top: 10px;
+    padding-left: 200px;
 }
 
 .sobre-nosotros .contenido-textos{
@@ -140,7 +149,7 @@ main .sobre-nosotros{
 }
 
 .contenido-textos p{
-    padding: 0px 0px 30px 15px;
+    padding: 10px 10px 30px 15px;
     font-weight: 300;
     text-align: justify;
 }
@@ -328,9 +337,9 @@ footer{
         height: 700px;
         background: rgba(28, 133, 31, 0.7);
         /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, hsla(0, 2%, 91%, 0.459), hsla(116, 24%, 55%, 0.664)), url(../img/bajo\ chasis.JPG);
+        background: -webkit-linear-gradient(to right, hsla(0, 2%, 91%, 0.459), hsla(116, 24%, 55%, 0.664)), url(../img/Balbula\ externa.jfif);
         /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, hsla(0, 2%, 91%, 0.459), hsla(115, 25%, 53%, 0.664)), url(../img/bajo\ chasis.JPG);
+        background: linear-gradient(to right, hsla(0, 2%, 91%, 0.459), hsla(115, 25%, 53%, 0.664)), url(../img/Balbula\ externa.jfif);
         /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         background-size: cover;
         background-attachment: fixed;
@@ -361,9 +370,19 @@ footer{
         width: 90%;
     }
 
+    .imagen-about-us1{
+        width: 75%;
+        height: 40%;
+        padding-top: 10px;
+        padding-left: 200px;
+        opacity: 60%;
+    }
+    
     .imagen-about-us{
-        padding-top: 1px;
-        width: 90%;
+        width: 75%;
+        height: 40%;
+        padding-top: 10px;
+        padding-left: 190px;
     }
 
     /* Galeria */
@@ -446,9 +465,9 @@ footer{
         height: 500px;
         background: rgba(28, 133, 31, 0.7);
         /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, hsla(0, 2%, 91%, 0.459), hsla(115, 26%, 53%, 0.664)), url(../img/bajo\ chasis.JPG);
+        background: -webkit-linear-gradient(to right, hsla(0, 2%, 91%, 0.459), hsla(115, 26%, 53%, 0.664)), url(../img/Balbula\ externa.jfif);
         /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, hsla(0, 2%, 91%, 0.459), hsla(115, 25%, 50%, 0.664)), url(../img/bajo\ chasis.JPG);
+        background: linear-gradient(to right, hsla(0, 2%, 91%, 0.459), hsla(115, 25%, 50%, 0.664)), url(../img/Balbula\ externa.jfif);
         /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         background-size: cover;
         background-attachment: fixed;
@@ -482,9 +501,19 @@ header .textos-header{
 
     /* ABOUT US */
 
+    .imagen-about-us1{
+        width: 85%;
+        height: 50%;
+        padding-top: 10px;
+        padding-left: 130px;
+        opacity: 60%;
+    }
+    
     .imagen-about-us{
-        margin-bottom: 60px;
-        width: 100%;
+        width: 85%;
+        height: 50%;
+        padding-top: 10px;
+        padding-left: 100px;
     }
 
     .sobre-nosotros .contenido-textos{
