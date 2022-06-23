@@ -212,8 +212,10 @@ main .sobre-nosotros{
 /* Clientes */
 
 .cards{
+    width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-items: column;
+    justify-content: space-between;
     padding-top: 10px;
 
 }
@@ -231,8 +233,8 @@ main .sobre-nosotros{
 
 .cards .card img{
     opacity: 0.83;
-    width: 40%;
-    height: 100%;
+    width: 180px;
+    height: 90%;
     object-fit: cover;
     border-radius: 4%;
     display: block;
@@ -241,19 +243,21 @@ main .sobre-nosotros{
 
 .cards .card > .contenido-texto-card{
     width: 70%;
-    color: #fff;
+    color: rgb(30, 137, 87);
 }
 
 .cards .card > .contenido-texto-card p{
+    color: rgb(255, 255, 255);
     font-weight: 300;
     padding-top: 5px;
+    font-weight: bold;
 }
 
 /*  Our team */
 
 .about-services{
     background: #f2f2f2;
-    padding-bottom: 30px;
+    padding-bottom: 70px;
     width: 100%;
 }
 
@@ -265,20 +269,18 @@ main .sobre-nosotros{
 }
 
 .servicio-ind{
-    width: 90%;
+    width: 80%;
     text-align: center;
 }
 
-.servicio-ind {
-    width: 50%;
-}
 
 .servicio-ind img{
     width: 20%;
 }
 
 .servicio-ind h3{
-    margin: 10px 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .servicio-ind p{
@@ -405,9 +407,14 @@ footer{
         width: 90%;
     }
 
-    .card .card .img{
-        width: 150px;
-        height: 150px;
+    .cards .card img{
+        opacity: 0.83;
+        width: 180px;
+        height: 90%;
+        object-fit: cover;
+        border-radius: 4%;
+        display: block;
+        margin: 10px;
     }
 
     .cards .card:first-child{
@@ -537,9 +544,27 @@ header .textos-header{
         align-items: center;
     }
 
-    .card .card .img{
-        width: 150px;
-        height: 150px;
+    .cards .card img{
+        opacity: 0.75;
+        width: 200px;
+        height: 70%;
+        object-fit: cover;
+        border-radius: 4%;
+        display: block;
+        
+    }
+
+    .cards .card > .contenido-texto-card{
+        width: 70%;
+        color: rgb(0, 63, 26);
+    }
+    
+    .cards .card > .contenido-texto-card p{
+        color: rgb(255, 255, 255);
+        font-weight: 250;
+        padding-top: 5px;
+        font-weight: bold;
+        margin-bottom: 5px;
     }
 
     /* Footer */
