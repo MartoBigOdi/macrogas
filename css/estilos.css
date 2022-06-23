@@ -228,7 +228,8 @@ main .sobre-nosotros{
     align-items: center;
     justify-content: space-evenly;
     border-radius: 5px;
-    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
+    box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.6);
+    padding: 10px;
 }
 
 .cards .card img{
@@ -239,11 +240,16 @@ main .sobre-nosotros{
     border-radius: 4%;
     display: block;
     margin: 10px;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.6);
 }
 
 .cards .card > .contenido-texto-card{
+    background-color: rgb(111, 194, 118);
+    border-radius: 15px;
+    padding: 10px;
     width: 70%;
     color: rgb(30, 137, 87);
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.6);
 }
 
 .cards .card > .contenido-texto-card p{
