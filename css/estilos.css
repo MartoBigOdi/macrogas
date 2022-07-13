@@ -30,9 +30,9 @@ header {
     height: 800px;
     background: rgba(27, 80, 29, 0.7);
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, hsla(0, 2%, 91%, 0.459), hsla(114, 21%, 61%, 0.664)), url(../img/Balbula\ externa.jfif);
+    background: -webkit-linear-gradient(to right, hsla(0, 2%, 91%, 0.459), hsla(114, 21%, 61%, 0.664)), url(../img/frente.PNG);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, hsla(0, 2%, 91%, 0.459), hsla(115, 28%, 54%, 0.664)), url(../img/Balbula\ externa.jfif);
+    background: linear-gradient(to right, hsla(0, 2%, 91%, 0.459), hsla(115, 28%, 54%, 0.664)), url(../img/frente.PNG);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: cover;
     background-attachment: fixed;
@@ -347,9 +347,9 @@ footer{
         height: 700px;
         background: rgba(28, 133, 31, 0.7);
         /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, hsla(0, 2%, 91%, 0.459), hsla(116, 24%, 55%, 0.664)), url(../img/Balbula\ externa.jfif);
+        background: -webkit-linear-gradient(to right, hsla(0, 2%, 91%, 0.459), hsla(116, 24%, 55%, 0.664)), url(../img/frente.PNG);
         /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, hsla(0, 2%, 91%, 0.459), hsla(115, 25%, 53%, 0.664)), url(../img/Balbula\ externa.jfif);
+        background: linear-gradient(to right, hsla(0, 2%, 91%, 0.459), hsla(115, 25%, 53%, 0.664)), url(../img/frente.PNG);
         /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         background-size: cover;
         background-attachment: fixed;
@@ -480,9 +480,9 @@ footer{
         height: 500px;
         background: rgba(28, 133, 31, 0.7);
         /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, hsla(0, 2%, 91%, 0.459), hsla(115, 26%, 53%, 0.664)), url(../img/Balbula\ externa.jfif);
+        background: -webkit-linear-gradient(to right, hsla(0, 2%, 91%, 0.459), hsla(115, 26%, 53%, 0.664)), url(../img/frente.PNG);
         /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, hsla(0, 2%, 91%, 0.459), hsla(115, 25%, 50%, 0.664)), url(../img/Balbula\ externa.jfif);
+        background: linear-gradient(to right, hsla(0, 2%, 91%, 0.459), hsla(115, 25%, 50%, 0.664)), url(../img/frente.PNG);
         /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         background-size: cover;
         background-attachment: fixed;
