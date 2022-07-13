@@ -229,7 +229,7 @@ main .sobre-nosotros{
     justify-content: space-evenly;
     border-radius: 5px;
     box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.6);
-    padding: 10px;
+    padding: 20px;
 }
 
 .cards .card img{
@@ -239,7 +239,7 @@ main .sobre-nosotros{
     object-fit: cover;
     border-radius: 4%;
     display: block;
-    margin: 10px;
+    margin: 20px;
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.6);
 }
 
@@ -424,7 +424,7 @@ footer{
     }
 
     .cards .card:first-child{
-        margin-bottom: 30px;
+        margin-bottom: 20px;
     }
 
     /* servicios */
@@ -468,7 +468,7 @@ footer{
     }
 }
 
-@media screen and (max-width:800px){
+@media screen and (max-width:700px){
 
      header{
         background-position: center;
@@ -548,11 +548,12 @@ header .textos-header{
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-bottom: 10px;
     }
 
     .cards .card img{
         opacity: 0.75;
-        width: 200px;
+        width: 185px;
         height: 70%;
         object-fit: cover;
         border-radius: 4%;
